@@ -1,0 +1,453 @@
+
+
+
+
+import time
+
+
+
+print(
+    "_____________________________________________________________________________\n"
+    "Hello welcome to our program we are the DataLearners our program is about \n"
+    "Riyadh and places in there such as museums, malls, and competition activities,\n "
+    "and how to spend your money there and what are places to go and avoid\n"
+    "so let's begin! \n "
+    "-----------------------------------------------------------------------------\n"
+    "\n"
+
+)
+time.sleep(2)
+
+print("Riyadh, the capital city of Saudi Arabia, is known for \n"
+      "its rich cultural heritage, modern infrastructure, and\n "
+      "vibrant atmosphere. The city is located in the heart of \n"
+      "the Arabian Peninsula and has been a hub of trade and\n"
+      " commerce for centuries. With a population of over seven\n "
+      "million people, Riyadh is one of the most populous cities\n "
+      "in the region. It is also a major cultural and academic\n"
+      " center, with a plethora of museums, galleries, and \n"
+      "universities. The city is famous for its ultra-modern\n"
+      " skyscrapers, sprawling shopping malls, and luxurious\n"
+      " hotels. Riyadh is the epitome of a modern Arab city \n"
+      "that seamlessly blends the old with the new. Its rich\n "
+      "history and vibrant contemporary culture make it a \n"
+      "must-visit destination for travelers to Saudi Arabia.\n"
+)
+
+time.sleep(2)
+
+name = (input("Enter your name please: "))
+print("Hello! " + name +" welcome to our program!!")
+time.sleep(1)
+age = (input("Enter your age please: "))
+
+time.sleep(1)
+
+
+ask2 = (input("so are visiting Riyadh as a tourist or for buisness?\n"
+                   " 1-tourist\n"
+                   " 2-buisness\n "))
+if ask2 == "1":
+    subask1 = (input("there are some places for you to visit so don't miss this out! \n"
+          "so we are gonna give you list of places to visit but could you \n"
+          " tell us about your budget? is it below 10k or above? \n"
+                     "below/above : "))
+    time.sleep(1)
+
+    if subask1 == "above":
+        print(
+            "here is a list of places you can visit since you have a higher budget \n"
+            "----------------------------------------------------------------------\n"
+            "-ritz-carlton\n"
+            "-almamlaka tower\n"
+            "-boulevard\n"
+            "-billionaire restaurant\n"
+            "-mamo restaurant\n"
+            "-fairmont hotel\n"
+            "-----------------------------------------------------------------------\n"
+        )
+        time.sleep(1)
+
+    elif subask1 == "below":
+        print(" there are lots of a good places to visit since you a bit of money\n"
+              "King Fahd National Library\n"
+              "Musmak Castle\n"
+              "National Museum of Saudi Arabia\n"
+              "Imam Turki Bin Abdullah Grand Mosque\n"
+              "Riyadh Zoo\n"
+              "Riyadh Gallery Mall\n"
+              "Souq Al Zal Market\n"
+              "Wadi Hanifah Park\n"
+              "Al Faisal University Museum\n"
+              "\n")
+        time.sleep(1)
+
+
+    else:
+        print("hmmm...")
+    time.sleep(1)
+
+elif ask2 == "2":
+    subask2 = print("there are some good jobs for you to apply ?\n"
+                    "Saudi Aramco\n"
+                    "SABIC"
+                     "National Commercial Bank (NCB)\n"
+                     "Saudi Electricity Company (SEC)\n"
+                     "Riyad Bank\n"
+                     "Al Danube\n"
+                     "Abdullah Al-Khodari Sons Company\n"
+                     "\n")
+
+
+
+else:
+    print("soryy I dont understand")
+
+time.sleep(1)
+
+
+ask5 = (input("when are you planing to visit Riyadh?\n"
+                   "1- January\n"
+                   "2- February\n"
+                   "3- March\n"
+                   "4- April\n"
+                   "5- May\n"
+                   "6- June\n"
+                   "7- July\n"
+                   "8- August\n"
+                   "9- September\n"
+                   "10- October\n"
+                   "11- November\n"
+                   "12- December\n"
+              "chose one\n"))
+
+
+while True:
+    if ask5 == "1":
+        print("----------------------------------------------------\n"
+          "Saudi International Motor Show\n"
+          "----------------------------------------------------\n"
+          "Daily high temperatures are around 69°F,\n"
+          "rarely falling below 59°F or exceeding 81°F.\n"
+          "----------------------------------------------------\n")
+        ask5 += "1"
+        break
+
+    elif ask5 == "2":
+        print("----------------------------------------------------\n"
+              " Saudi Founding Day\n"
+              "----------------------------------------------------\n"
+              "Daily high temperatures increase by 7°F, from 70°F to\n"
+              " 77°F, rarely falling below 61°F or exceeding 88°F.\n"
+              "----------------------------------------------------\n")
+        ask5 += "1"
+        break
+
+    elif ask5 == "3":
+        print("----------------------------------------------------\n"
+              " Saudi Founding Day\n"
+              "----------------------------------------------------\n"
+              "Daily low temperatures increase by 8°F, from 56°F to \n"
+              "65°F, rarely falling below 48°F or exceeding 72°F.\n"
+              "----------------------------------------------------\n")
+        ask5 += "1"
+        break
+
+    elif ask5 == "3":
+        print("----------------------------------------------------\n"
+              " Ramadan and flad day\n"
+              "----------------------------------------------------\n"
+              "Daily high temperatures increase by 7°F, from 70°F to\n"
+              " 77°F, rarely falling below 61°F or exceeding 88°F.\n"
+              "----------------------------------------------------\n")
+        ask5 += "2"
+        break
+
+    elif ask5 == "4":
+        print("----------------------------------------------------\n"
+              " nothing\n"
+              "----------------------------------------------------\n"
+              "unknown\n"
+              "----------------------------------------------------\n")
+        ask5 += "1"
+        break
+
+
+    elif ask5 == "5":
+
+        print("----------------------------------------------------\n"
+
+              " nothing\n"
+
+              "----------------------------------------------------\n"
+
+              "unknown\n"
+
+              "----------------------------------------------------\n")
+
+        ask5 += "1"
+
+        break
+
+
+    elif ask5 == "6":
+
+        print("----------------------------------------------------\n"
+
+              " nothing\n"
+
+              "----------------------------------------------------\n"
+
+              "unknown\n"
+
+              "----------------------------------------------------\n")
+
+        ask5 += "1"
+
+        break
+
+
+    elif ask5 == "7":
+
+        print("----------------------------------------------------\n"
+
+              " nothing\n"
+
+              "----------------------------------------------------\n"
+
+              "unknown\n"
+
+              "----------------------------------------------------\n")
+
+        ask5 += "1"
+
+        break
+
+
+    elif ask5 == "8":
+
+        print("----------------------------------------------------\n"
+
+              " nothing\n"
+
+              "----------------------------------------------------\n"
+
+              "unknown\n"
+
+              "----------------------------------------------------\n")
+
+        ask5 += "1"
+
+        break
+
+
+    elif ask5 == "9":
+
+        print("----------------------------------------------------\n"
+
+              " nothing\n"
+
+              "----------------------------------------------------\n"
+
+              "unknown\n"
+
+              "----------------------------------------------------\n")
+
+        ask5 += "1"
+
+        break
+
+
+    elif ask5 == "4":
+
+        print("----------------------------------------------------\n"
+
+              " nothing\n"
+
+              "----------------------------------------------------\n"
+
+              "unknown\n"
+
+              "----------------------------------------------------\n")
+
+        ask5 += "2"
+
+        break
+
+
+    elif ask5 == "4":
+
+        print("----------------------------------------------------\n"
+
+              " nothing\n"
+
+              "----------------------------------------------------\n"
+
+              "unknown\n"
+
+              "----------------------------------------------------\n")
+
+        ask5 += "2"
+
+        break
+
+
+
+
+ask3 = int(input("how many days are you willing to stay?\n "
+             "months? weeks? days?\n"
+             "write it down by numbers\n"))
+while ask3 <= 30 :
+    print("you are not gonna spend much time then but there are monthly events\n"
+          "that are gonna happen during that time so don't miss this out!\n"
+          "---------------------------------------------------------------------\n"
+          "Janadriyah Cultural Festival (February/March)\n"
+          "Riyadh International Book Fair (March/April)\n"
+          "Saudi International Motor Show (November)\n"
+          "Taste of Riyadh (December)\n"
+          "Riyadh International Jewelry and Watches Exhibition (April/May)\n"
+          "Saudi International Exhibition for Shopping Centers (May/June)\n"
+          "Riyadh International Food Festival (October/November)\n"
+          "---------------------------------------------------------------------\n"
+          "\n")
+
+    ask3 = + 1
+    break
+else:
+    ask3 >= 31
+    print(" since you are going to spend a lot of time in Riyadh there are some \n"
+          "yearly events that's going to happen during that time\n"
+          "-----------------------------------------------------------------------\n"
+          "Riyadh International Book Fair\n"
+          "Saudi International Motor Show\n"
+          "Saudi Design Week\n"
+          "Riyadh International Convention & Exhibition Center\n"
+          "Al-Janadriyah National Heritage and Culture Festival\n"
+          "Saudi Agriculture Exhibition & Conference\n"
+          "Riyadh International Food Festival.\n"
+          "-----------------------------------------------------------------------\n"
+          "\n")
+    ask3 += 1
+
+time.sleep(1)
+
+
+print("Since you are travling to Riyadh you need to prepare to TravlingBag because there's\n"
+      "some important stuff you neeed to bring with you and some stuff you should avoid \n"
+      "bringing them\n")
+time.sleep(1)
+
+ask4 = (input("so, are going to travel alone? or with your family?\n"
+                   "1- alone\n"
+                   "2- family\n"
+                   "\n"))
+if ask4 == "1":
+    print("--------------------------------------------------------------------------------------\n"
+          "1- Passport, visa, and other travel documents\n"
+          "2- Comfortable and modest clothing suitable for the local culture\n"
+          "3- Sunscreen and sunglasses to protect your skin and eyes from the intense sun rays\n"
+          "4- A light jacket or shawl for air-conditioned indoor places as they can be quite cold.\n"
+          "5- Reusable water bottle to stay hydrated\n"
+          "6- Power adapter and chargers for your electronic devices\n"
+          "7- Language translation tools or phrasebooks to communicate with locals\n"
+          "8- First aid kit and any essential medication.\n"
+          "9- A comfortable pair of shoes for walking around.\n"
+          "10- Cash in the local currency and a budget plan for your expenses during the trip\n"
+          "---------------------------------------------------------------------------------------------\n"
+          "\n")
+elif ask4 == "2":
+    print("----------------------------------------------------------------------------------------------\n"
+          "1- Clothing appropriate for the weather in Riyadh. Summers can be hot and dry, and winters can be cool and rainy.\n"
+          "2- Toiletries like toothbrush, toothpaste, shampoo, soap, etc.\n"
+          "3- Comfortable shoes for sightseeing and walking.\n"
+          "4- Prescription medicines for all family members.\n"
+          "5- Snacks and food items for kids.\n"
+          "6- Entertainment items like books, board games, card games, etc.\n"
+          "7- Sunscreen and hats for protection against the sun.\n"
+          "\n"
+          "It is always wise to pack based on the duration of your stay and the specific needs of your family members.\n"
+          "----------------------------------------------------------------------------------------------\n")
+
+print("And there is some stuff you should avoid bringing them to not get in a problems!!\n"
+      "1- Alcohol - alcohol is strictly prohibited in Riyadh, and travelers should not bring any alcoholic beverages.\n"
+      "2- Pork products - pork is considered impure in the Muslim religion, and bringing pork products to Riyadh is strictly prohibited.\n"
+      "3- Drugs - illegal drugs are strictly prohibited in Saudi Arabia, and travelers caught with illegal drugs can face severe penalties\n"
+      "4- Pornography - bringing pornographic material to Saudi Arabia is illegal and can result in punishment.\n"
+      "5- Religious propaganda or symbols of other religions - it is advised to respect the Islamic traditions and to "
+      "avoid bringing religious propaganda or symbols of other religions\n"
+      "6- Clothing that is too revealing - travelers need to dress conservatively in public and keep their arms and legs covered"
+      "7- Any items that might be considered disrespectful or offensive to the Islamic culture."
+      "")
+
+#
+# trip = input("Do you want me to organize a complete tourist trip for you?")
+# if trip =="yes":
+#     print("okay")
+#     k=input("are you budget lower or higher")
+#     if k=="higher":
+#         print("okay you will come 20 February and you will leave 27 February now\n "
+#                     "i will gave what will happend in this time It will happen on the 24th of February,\n"
+#                     " the founding day event and you can see alot of events")
+#         print("-----------------------------------------")
+#         print("okey i will give you a trip for 7 days")
+#         print("-------------------------------------")
+#         print(" 1.hotel : sepctrums hotel riyadh ")
+#         print("-------------------------------------")
+#         print("first day: you will go Boulevard City and Boulevard world ")
+#         print("seconde day: you will go to King Abdulaziz Financial and winter land ")
+#         print("third day : you will go ")
+#         print("fourth day ")
+#
+
+
+
+
+time.sleep(1)
+
+askPri = input("are you willing to continue?\n"
+      "yes/no\n")
+if askPri == "yes":
+    print("alright let's continue then!")
+    time.sleep(1)
+    print("there are some rules you need to follow when staying in Riyadh\n")
+    time.sleep(1)
+    print("Here are a list of main rules in Riyadh\n"
+                "-------------------------------------------------------------------------------------------\n"
+                "1- Respect the Islamic culture: Riyadh is a conservative city, and you should respect the Islamic\n"
+                " culture and traditions. Dress modestly, especially if visiting religious sites, and do not\n"
+                " consume alcohol or narcotics in public.\n"
+                "\n"
+                "Dress Code: Women need to cover their hair \n"
+                "and wear an abaya (a long black cloak), while men wear traditional dress.\n"
+                "\n"
+                "Women's Rights - Women have limited rights in Saudi Arabia, so women should be extra careful when travelling\n"
+                " alone or with a group of 'women. However, they are now allowed to drive, go to sports events and attend\n"
+                " concerts."
+                "\n"
+                "Public Behavior - In public places, it is considered disrespectful to eat,\n"
+                " drink, and chew gum in public during Ramadan. Public displays of affection are prohibited, and smoking\n"
+                " is not allowed in public areas.\n"
+                "\n"
+                "Photography - Photography of government buildings, \n"
+                "military bases, and the royal palaces is strictly prohibited.\n"
+                "-----------------------------------------------------------------------------------------------\n"
+                "\n")
+
+    subask3 = input("do you accept this rules?\n"
+                    "yes/no\n")
+    if subask3 == "yes":
+        print("Thanks for accepting!")
+    else:
+        subask3 == "no"
+        print("Is there any problem?")
+
+elif askPri == "no":
+    print("thanks for viewing our program, enjoy your day!")
+else:
+    print("hmmmm...?")
+
+
+
+
+
+
